@@ -30,7 +30,7 @@ Please follow **all** of the steps, since they are required for everything to wo
 The DOSBox config file should be located in `~/.dosbox/dosbox-<version>.conf`
 
 1. Create a directory on your local drive which we will be using as a drive in DOSBox  
-*I recommend on using the 8086 folder which came with this repo `<RepoLocation>/Subjects/komparch/8086`*
+*I recommend on using the 8086 folder which came with this repo, so if you've downloaded the zip it's already created at `<RepoLocation>/Subjects/komparch/8086`*
 2. Create a new folder called `Programs` in the directory created previously  
     **Note: This folder's creation is mandatory, it's required to add tasm to PATH**
 3. Locate the DOSBox config file, and then change these params:  
@@ -53,8 +53,7 @@ Please follow **all** of the steps, since they are required for everything to wo
 On windows you can access the config file by launching the `DOSBox <version> Options` application
 
 1. Create a directory on your local drive which we will be using as a drive in DOSBox  
-*I recommend on using the 8086 folder which came with this repo `<RepoLocation>/Subjects/komparch/8086`  
-For example: `C:\Users\domas\Repos\vu\Subjects\komparch\8086`*
+*I recommend on using the 8086 folder which came with this repo, so if you've downloaded the zip it's already created at `<RepoLocation>/Subjects/komparch/8086`  
 2. Create a new folder called `Programs` in the directory created previously  
     **Note: This folder's creation is mandatory, it's required to add tasm to PATH**
 3. Open the DOSBox config file, and then change these params:  
@@ -76,7 +75,7 @@ For example: `C:\Users\domas\Repos\vu\Subjects\komparch\8086`*
 
 Tasm is the application that is going to be used for compiling assembly files and then linking them to create executables
 
-1. Download [tasm](https://e.pcloud.link/publink/show?code=XZssO2ZH1ambmYxcizECx78bs10Xm9JuiEk)
+1. If you've downloaded the repository as zip, then tasm is already downloaded, otherwise, download [tasm](https://e.pcloud.link/publink/show?code=XZssO2ZH1ambmYxcizECx78bs10Xm9JuiEk)
 2. Unzip the `tasm` folder from tasm.zip into `<directory>/Programs` (directory is the folder which you created for DOSBox)
 
 The directory structure should be something like this:
