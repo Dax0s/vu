@@ -50,7 +50,7 @@ The DOSBox config file should be located in `~/.dosbox/dosbox-<version>.conf`
 
 Please follow **all** of the steps, since they are required for everything to work as intended
 
-On windows you can access the config file by launching the `DOSBox <version> Options` application
+On windows you can access the config file by pressing `Windows Button + Q`, then launching `DOSBox <version> Options` application
 
 1. Create a directory on your local drive which we will be using as a drive in DOSBox  
 *I recommend on using the 8086 folder which came with this repo, so if you've downloaded the zip it's already created at `<RepoLocation>/Subjects/komparch/8086`  
