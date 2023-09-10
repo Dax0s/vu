@@ -79,9 +79,13 @@ Tasm is the application that is going to be used for compiling assembly files an
 2. Open the zip file
 3. Unzip **only** the `tasm` folder (we don't need the MACOS folder) from tasm.zip into `<directory>/Programs` (directory is the folder which you created for DOSBox)
 
-The directory structure should be something like this:
+Make sure, that the directory structure is like this:
 
 `8086/Programs/tasm/<tasm-files>`
+
+And not like this:
+
+`8086/Programs/tasm/tasm/<tasm-files>`
 
 That's it:D
 
