@@ -102,8 +102,8 @@ Once you want to run your assembly programm just follow **Runing assembly progra
 Open DOSBox and run these commands to compile your .asm file, link it, and then run the executable
 
 ```
-tasm /l /zi <filename>.asm
-tlink /v <filename>.obj
+tasm <filename>.asm
+tlink <filename>.obj
 <filename>.exe
 ```
 
