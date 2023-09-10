@@ -22,7 +22,9 @@ Download [DOSBox](https://www.dosbox.com/download.php?main=1) for your operating
 
 In this step we will update the DOSBox config file and download the necessary software to compile and link assembly files
 
-#### Linux
+#### Linux installation
+
+Please follow **all** of the steps, since they are required for everything to work as intended
 
 The DOSBox config file should be located in `~/.dosbox/dosbox-<version>.conf`
 
@@ -43,7 +45,9 @@ The DOSBox config file should be located in `~/.dosbox/dosbox-<version>.conf`
     SET PATH=%PATH%;D:\PROGRAMS\TASM\BIN
     ```
 
-#### Windows
+#### Windows installation
+
+Please follow **all** of the steps, since they are required for everything to work as intended
 
 On windows you can access the config file by launching the `DOSBox <version> Options` application
 
