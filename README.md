@@ -2,7 +2,7 @@
 
 I've created this repo to have all of the information in one place and provide straightforward setup instructions accessible to everyone
 
-Since the Books folder in `Resources/komparch` is too big, it's uploaded separately: https://e.pcloud.link/publink/show?code=kZn2O2Zxmo7NcthJiSnPxOpFu3Kg4F4wra7
+Since the Books folder in `Resources/komparch` is too big, it's uploaded separately: [Books](https://e.pcloud.link/publink/show?code=kZn2O2Zxmo7NcthJiSnPxOpFu3Kg4F4wra7)
 
 *Note: I don't have a mac myself, so there won't be any instructions for it; however, I think that following Linux instruction could work, since they are both UNIX based*
 
@@ -102,6 +102,8 @@ I'm pretty sure there's a way to edit your .asm files in DOSBox as well, but thi
 * [Linas1](https://klevas.mif.vu.lt/~linas1/)
 * [Exercises](https://klevas.mif.vu.lt/~linas1/KompArch/Tvarka1.html)
 * [Valaitis website](https://klevas.mif.vu.lt/~valaitis/)
-* [tasm](https://trimtab.ca/2010/tech/tasm-5-intel-8086-turbo-assembler-download/)
+* [Tasm tutorial](https://trimtab.ca/2010/tech/tasm-5-intel-8086-turbo-assembler-download/)
+* [tasm download](https://e.pcloud.link/publink/show?code=XZssO2ZH1ambmYxcizECx78bs10Xm9JuiEk)
 * [Display config](https://www.dosgamers.com/dos/dosbox-dos-emulator/screen-resolution)
 * [DOSBox](https://www.dosbox.com/)
+* [Books](https://e.pcloud.link/publink/show?code=kZn2O2Zxmo7NcthJiSnPxOpFu3Kg4F4wra7)
