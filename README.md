@@ -8,6 +8,7 @@ I've created this repo to have all of the information in one place and provide s
 Since the Books folder in `Resources/komparch` is too big, it's uploaded separately: [Books](https://e.pcloud.link/publink/show?code=kZn2O2Zxmo7NcthJiSnPxOpFu3Kg4F4wra7)
 
 *Note: I don't have a mac myself, so there won't be any instructions for it; however, I think that following Linux instructions could work, since they are both UNIX based*
+*Note: file and directory names are case **insensitive***
 
 ## Setup
 
