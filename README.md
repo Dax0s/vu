@@ -41,14 +41,37 @@ The DOSBox config file should be located in `~/.dosbox/dosbox-<version>.conf`
 
 #### Windows
 
+On windows you can access the config file by launching the `DOSBox <version> Options` application
+
+1. Create a directory on your local drive which we will be using as a drive in DOSBox  
+*I recommend on using the 8086 folder which came with this repo `<RepoLocation>/Subjects/komparch/8086`  
+For example: `C:\Users\domas\Repos\vu\Subjects\komparch\8086`*
+2. Create a new folder called `Programs` in the directory created previously
+3. Open the DOSBox config file, and then change these params:
+4. `cputype=8086`
+5. I recommend changing the display settings using this [tutorial](https://www.dosgamers.com/dos/dosbox-dos-emulator/screen-resolution)
+6. Lastly, add these lines at the end of the file:
+    ```sh
+    # <directory> is the directory you've created in step one
+    # For example: /home/domas/VU/Subjects/komparch/8086
+    mount d <directory>
+    d:
+
+    SET PATH=%PATH%;D:\PROGRAMS\TASM\BIN
+    ```
+
 ---
 
 #### Downloading tasm
 
 Tasm is the application that is going to be used for compiling assembly files and then linking them to create executables
 
-1. Download [tasm](https://trimtab.ca/assets/files/tasm.zip)
-2. Unzip tasm.zip into `<directory>/Programs` (directory is the folder which you created for DOSBox)
+1. Download [tasm](https://e.pcloud.link/publink/show?code=XZssO2ZH1ambmYxcizECx78bs10Xm9JuiEk)
+2. Unzip the `tasm` folder from tasm.zip into `<directory>/Programs` (directory is the folder which you created for DOSBox)
+
+The directory structure should be something like this:
+
+`8086/Programs/tasm/<tasm-files>`
 
 That's it:D
 
@@ -56,7 +79,7 @@ That's it:D
 
 #### Writing assembly programs
 
-I recommend creating a .asm file in the DOSBox directory you've created and then edit it with VSCode with `ASM Code Lens` extension installed
+I recommend creating a .asm file in the DOSBox directory you've created (I've also provided an example `Hello.asm` file) and then editing it with VSCode with `ASM Code Lens` extension installed
 
 Once you want to run your assembly programm just follow **Runing assembly programs**
 
