@@ -29,7 +29,7 @@ Please follow **all** of the steps, since they are required for everything to wo
 The DOSBox config file should be located in `~/.dosbox/dosbox-<version>.conf`
 
 1. Create a directory on your local drive which we will be using as a drive in DOSBox  
-*I recommend on using the 8086 folder which came with this repo `<RepoLocation>/Subjects/komparch/8086`*
+*I recommend using the 8086 folder which came with this repo `<RepoLocation>/Subjects/komparch/8086`*
 2. Create a new folder called `Programs` in the directory created previously  
     **Note: This folder's creation is mandatory, it's required to add tasm to PATH**
 3. Locate the DOSBox config file, and then change these params:  
@@ -52,7 +52,7 @@ Please follow **all** of the steps, since they are required for everything to wo
 On windows you can access the config file by launching the `DOSBox <version> Options` application
 
 1. Create a directory on your local drive which we will be using as a drive in DOSBox  
-*I recommend on using the 8086 folder which came with this repo `<RepoLocation>/Subjects/komparch/8086`  
+*I recommend using the 8086 folder which came with this repo `<RepoLocation>/Subjects/komparch/8086`  
 For example: `C:\Users\domas\Repos\vu\Subjects\komparch\8086`*
 2. Create a new folder called `Programs` in the directory created previously  
     **Note: This folder's creation is mandatory, it's required to add tasm to PATH**
