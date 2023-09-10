@@ -1,3 +1,5 @@
+# I recommend downloading this project as zip and then following the instructions provided
+
 # Introduction
 
 I've created this repo to have all of the information in one place and provide straightforward setup instructions accessible to everyone
