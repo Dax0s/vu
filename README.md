@@ -76,7 +76,8 @@ On windows you can access the config file by pressing `Windows Button + Q`, then
 Tasm is the application that is going to be used for compiling assembly files and then linking them to create executables
 
 1. If you've downloaded the repository as zip, then tasm is already downloaded and is located in `Resources/komparch`, otherwise, download [tasm](https://e.pcloud.link/publink/show?code=XZssO2ZH1ambmYxcizECx78bs10Xm9JuiEk)
-2. Unzip **only** the `tasm` folder (we don't need the MACOS folder) from tasm.zip into `<directory>/Programs` (directory is the folder which you created for DOSBox)
+2. Open the zip file
+3. Unzip **only** the `tasm` folder (we don't need the MACOS folder) from tasm.zip into `<directory>/Programs` (directory is the folder which you created for DOSBox)
 
 The directory structure should be something like this:
 
