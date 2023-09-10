@@ -1,4 +1,5 @@
-# I recommend downloading this project as zip and then following the instructions provided
+# Important
+I recommend downloading this project as zip and then following the instructions provided (Green code button -> Download as zip)
 
 # Introduction
 
@@ -27,9 +28,10 @@ The DOSBox config file should be located in `~/.dosbox/dosbox-<version>.conf`
 
 1. Create a directory on your local drive which we will be using as a drive in DOSBox  
 *I recommend on using the 8086 folder which came with this repo `<RepoLocation>/Subjects/komparch/8086`*
-2. Create a new folder called `Programs` in the directory created previously
-3. Locate the DOSBox config file, and then change these params:
-4. `cputype=8086`
+2. Create a new folder called `Programs` in the directory created previously  
+    **Note: This folder's creation is mandatory, it's required to add tasm to PATH**
+3. Locate the DOSBox config file, and then change these params:  
+    `cputype=8086`
 5. I recommend changing the display settings using this [tutorial](https://www.dosgamers.com/dos/dosbox-dos-emulator/screen-resolution)
 6. Lastly, add these lines at the end of the file:
     ```sh
@@ -48,9 +50,10 @@ On windows you can access the config file by launching the `DOSBox <version> Opt
 1. Create a directory on your local drive which we will be using as a drive in DOSBox  
 *I recommend on using the 8086 folder which came with this repo `<RepoLocation>/Subjects/komparch/8086`  
 For example: `C:\Users\domas\Repos\vu\Subjects\komparch\8086`*
-2. Create a new folder called `Programs` in the directory created previously
-3. Open the DOSBox config file, and then change these params:
-4. `cputype=8086`
+2. Create a new folder called `Programs` in the directory created previously  
+    **Note: This folder's creation is mandatory, it's required to add tasm to PATH**
+3. Open the DOSBox config file, and then change these params:  
+    `cputype=8086`
 5. I recommend changing the display settings using this [tutorial](https://www.dosgamers.com/dos/dosbox-dos-emulator/screen-resolution)
 6. Lastly, add these lines at the end of the file:
     ```sh
@@ -81,7 +84,7 @@ That's it:D
 
 #### Writing assembly programs
 
-I recommend creating a .asm file in the DOSBox directory you've created (I've also provided an example `Hello.asm` file) and then editing it with VSCode with `ASM Code Lens` extension installed
+I recommend creating a .asm file (Create a new text file and change the extension from .txt to .asm) in the DOSBox directory you've created (I've also provided an example `Hello.asm` file) and then editing it with VSCode with `ASM Code Lens` extension installed
 
 Once you want to run your assembly programm just follow **Runing assembly programs**
 
