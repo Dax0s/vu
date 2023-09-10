@@ -1,0 +1,4 @@
+Resources/komparch/Books
+
+Subjects/komparch/8086/*
+!Subjects/komparch/8086/Hello.asm
