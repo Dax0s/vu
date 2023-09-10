@@ -96,7 +96,7 @@ That's it:D
 I recommend creating a .asm file (Create a new text file and change the extension from .txt to .asm) in the DOSBox directory you've created (I've also provided an example `Hello.asm` file) and then editing it with VSCode with `ASM Code Lens` extension installed
 
 Once you want to run your assembly programm just follow **Runing assembly programs**
-*You can update the file in your editor and it's going to update in DOSBox as well without reopening it*
+*You can update the file in your editor and it's going to update in DOSBox as well without reopening it, but you will have to recompile and relink the files (rerun the commands bellow)*
 
 #### Running assembly programs
 
