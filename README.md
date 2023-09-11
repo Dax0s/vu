@@ -53,7 +53,7 @@ Please follow **all** of the steps, since they are required for everything to wo
 On windows you can access the config file by pressing `Windows Button + Q`, then launching `DOSBox <version> Options` application
 
 1. Create a directory on your local drive which we will be using as a drive in DOSBox  
-*I recommend on using the 8086 folder which came with this repo, so if you've downloaded the zip it's already created at `<RepoLocation>/Subjects/komparch/8086`  
+*I recommend on using the 8086 folder which came with this repo, so if you've downloaded the zip it's already created at `<RepoLocation>\Subjects\komparch\8086`  
 2. Create a new folder called `Programs` in the directory created previously  
     **Note: This folder's creation is mandatory, it's required to add tasm to PATH**
 3. Open the DOSBox config file, and then change these params:  
@@ -62,7 +62,7 @@ On windows you can access the config file by pressing `Windows Button + Q`, then
 6. Lastly, add these lines at the end of the file:
     ```sh
     # <directory> is the directory you've created in step one
-    # For example: /home/domas/VU/Subjects/komparch/8086
+    # For example: C:\Users\domas\Repos\vu\Subjects\komparch\8086
     mount d <directory>
     d:
 
