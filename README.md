@@ -4,7 +4,7 @@ I recommend downloading this project as zip `(Green code button -> Download as z
 
 I've created this repo to have all of the information in one place and provide straightforward setup instructions accessible to everyone
 
-Since the Books folder in `Resources/komparch` is too big, it's uploaded separately: [Books](https://e.pcloud.link/publink/show?code=kZn2O2Zxmo7NcthJiSnPxOpFu3Kg4F4wra7)
+Since the Books folder in `Resources/komparch` is too big, it's uploaded separately: [Books](https://filedn.eu/lbms6Ka1QYkpaNKTeFCOfb4/VU/Books/)
 
 *Note: I don't have a mac myself, so there won't be any instructions for it; however, I think that following Linux instructions could work, since they are both UNIX based*  
 
@@ -78,7 +78,7 @@ On windows you can access the config file by pressing `Windows Button + Q`, then
 
 Tasm is the application that is going to be used for compiling assembly files and then linking them to create executables
 
-1. If you've downloaded the repository as zip, then tasm is already downloaded and is located in `Resources/komparch`, otherwise, download [tasm](https://e.pcloud.link/publink/show?code=XZssO2ZH1ambmYxcizECx78bs10Xm9JuiEk)
+1. If you've downloaded the repository as zip, then tasm is already downloaded and is located in `Resources/komparch`, otherwise, download [tasm](https://filedn.eu/lbms6Ka1QYkpaNKTeFCOfb4/VU/tasm.zip)
 2. Open the zip file
 3. Unzip **only** the `tasm` folder (we don't need the MACOS folder) from tasm.zip into `<directory>/Programs` (directory is the folder which you created for DOSBox)
 
@@ -131,7 +131,7 @@ I'm pretty sure there's a way to edit your .asm files in DOSBox as well, but thi
 * [Exercises](https://klevas.mif.vu.lt/~linas1/KompArch/Tvarka1.html)
 * [Valaitis website](https://klevas.mif.vu.lt/~valaitis/)
 * [Tasm tutorial](https://trimtab.ca/2010/tech/tasm-5-intel-8086-turbo-assembler-download/)
-* [tasm download](https://e.pcloud.link/publink/show?code=XZssO2ZH1ambmYxcizECx78bs10Xm9JuiEk)
+* [tasm download](https://filedn.eu/lbms6Ka1QYkpaNKTeFCOfb4/VU/tasm.zip)
 * [Display config](https://www.dosgamers.com/dos/dosbox-dos-emulator/screen-resolution)
 * [DOSBox](https://www.dosbox.com/)
-* [Books](https://e.pcloud.link/publink/show?code=kZn2O2Zxmo7NcthJiSnPxOpFu3Kg4F4wra7)
+* [Books](https://filedn.eu/lbms6Ka1QYkpaNKTeFCOfb4/VU/Books/)
