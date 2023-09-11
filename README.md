@@ -1,13 +1,13 @@
-# Important
-I recommend downloading this project as zip and then following the instructions provided (Green code button -> Download as zip)
-
 # Introduction
+
+I recommend downloading this project as zip `(Green code button -> Download as zip)` and then following the instructions provided 
 
 I've created this repo to have all of the information in one place and provide straightforward setup instructions accessible to everyone
 
 Since the Books folder in `Resources/komparch` is too big, it's uploaded separately: [Books](https://e.pcloud.link/publink/show?code=kZn2O2Zxmo7NcthJiSnPxOpFu3Kg4F4wra7)
 
-*Note: I don't have a mac myself, so there won't be any instructions for it; however, I think that following Linux instructions could work, since they are both UNIX based*
+*Note: I don't have a mac myself, so there won't be any instructions for it; however, I think that following Linux instructions could work, since they are both UNIX based*  
+
 *Note: file and directory names are case **insensitive***
 
 ## Setup
@@ -32,7 +32,8 @@ The DOSBox config file should be located in `~/.dosbox/dosbox-<version>.conf`
 1. Create a directory on your local drive which we will be using as a drive in DOSBox  
 *I recommend on using the 8086 folder which came with this repo, so if you've downloaded the zip it's already created at `<RepoLocation>/Subjects/komparch/8086`*
 2. Create a new folder called `Programs` in the directory created previously  
-    **Note: This folder's creation is mandatory, it's required to add tasm to PATH**
+    **Note: This folder's creation is mandatory, it's required to add tasm to PATH**  
+    *If you're using the 8086 folder which came with this zip, then the folder is already created*
 3. Locate the DOSBox config file, and then change these params:  
     `cputype=8086`
 5. I recommend changing the display settings using this [tutorial](https://www.dosgamers.com/dos/dosbox-dos-emulator/screen-resolution)
@@ -50,12 +51,13 @@ The DOSBox config file should be located in `~/.dosbox/dosbox-<version>.conf`
 
 Please follow **all** of the steps, since they are required for everything to work as intended
 
-On windows you can access the config file by pressing `Windows Button + Q`, then launching `DOSBox <version> Options` application
+On windows you can access the config file by pressing `Windows Button + Q`, then launching `DOSBox <version> Options` application 
 
 1. Create a directory on your local drive which we will be using as a drive in DOSBox  
-*I recommend on using the 8086 folder which came with this repo, so if you've downloaded the zip it's already created at `<RepoLocation>\Subjects\komparch\8086`  
+*I recommend using the 8086 folder which came with this repo, so if you've downloaded the zip it's already created at `<RepoLocation>\Subjects\komparch\8086`*  
 2. Create a new folder called `Programs` in the directory created previously  
-    **Note: This folder's creation is mandatory, it's required to add tasm to PATH**
+    **Note: This folder's creation is mandatory, it's required to add tasm to PATH**  
+    *If you're using the 8086 folder which came with this zip, then the folder is already created*
 3. Open the DOSBox config file, and then change these params:  
     `cputype=8086`
 5. I recommend changing the display settings using this [tutorial](https://www.dosgamers.com/dos/dosbox-dos-emulator/screen-resolution)
@@ -93,7 +95,7 @@ That's it:D
 
 #### Writing assembly programs
 
-I recommend creating a .asm file (Create a new text file and change the extension from .txt to .asm) in the DOSBox directory you've created (I've also provided an example `Hello.asm` file) and then editing it with VSCode with `ASM Code Lens` extension installed
+I recommend creating a .asm file `(Create a new text file and change the extension from .txt to .asm)` in the DOSBox directory you've created (I've also provided an example `Hello.asm` file) and then editing it with VSCode with `ASM Code Lens` extension installed
 
 Once you want to run your assembly programm just follow **Runing assembly programs**
 *You can update the file in your editor and it's going to update in DOSBox as well without reopening it, but you will have to recompile and relink the files (rerun the commands bellow)*
@@ -107,6 +109,16 @@ tasm <filename>.asm
 tlink <filename>.obj
 <filename>.exe
 ```
+
+**OR**
+
+```
+RUN.BAT <filename>
+```
+
+The command above will recompile, relink and run your file automatically; however, make sure you're not including extensions in the filename (`Hello` instead of `Hello.asm`)
+
+---
 
 I'm pretty sure there's a way to edit your .asm files in DOSBox as well, but this is the setup I'm currently working with
 
